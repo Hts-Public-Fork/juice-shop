@@ -1,0 +1,33 @@
+// PR-4b RE-VALIDATION (authorized security test). FAKE throwaway RSA key — never used anywhere.
+// Purpose: prove the Go worker checks out the PR HEAD so diff-scope FINDS this new secret.
+// Safe to revert immediately after the gate blocks. Distinct from any prior fixture.
+export const htsPr4bRevalidationKey = `
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8tMyC9+vVk2tA
+x1SOsK6PkI/hhWQf29PvbnNPFsOHrTRaAL27uzHQBdFDGm8MhdS3k/V8AArDfHDS
+hgNFRZs1IehnoPRFM9r0JUmqSheCRGErpKBF/De5jWHhscuyx/3saTxEPBk7FLee
+LJmF9lw2nuMZzjvCV/G+mNCgJZzxve46ql2KgBn+3tC3BfMSpVS9NXrv2v1Gzwjs
+vMdWjcgzM+EgLtBoRfI3nPQZgFjGVOywY2yie/tdZoBoqYV34phDyE467gl+BOmV
+ISZor5RsazSthpUqoN+/jIr7OVjPRBqAd/ZkSW2ApLGAyFYp+MSFgXqW974zk3aJ
+N2QHnaxFAgMBAAECggEAJYjx5/gf5wTSb9lmOpauthw7XlCd1I9xhb3KvlfJD0b2
+s5NTqhCHTTknAWmz3oINSHGsAdzxRyaMu3dQFbqNb4Fd3KUBiXVRzz/OegqQSAdJ
+a7isb5dGT0htyIqIubg5jAl3pRvuKdgKWPJGnESfXXb3tbWVoefDzFVRpBUvNU8p
+jxYXoQLDp7Y7kXJiEwjgY+ciNi5ahQ/GgprarDjyGBWsqbSpA2RZ5jcov8a6FD0c
+5gQOXFP/c9e0H0+xqZcX4OiQUoSD8NspwE3TfqhNCNiZzZWXUY00/zfLhXyLrq7e
+h5X36fqOoMuPvs/MjD/F/FbkWu9BEqGBwdUEjvctuQKBgQD9Q+eSmaq5BUGIJGGj
+kl0l559H2Tb6qJgi0AhKv9W2DpQRyb/R1Z7cEHhqvXJ3NxPyZskwygUjJRl5duJI
+5zOL8yzts8vNdGexcn6BFuUpRtKbC18JQJOfVEaflP7+C7+esanVbPvGlQvSV3Lp
+EVh8aCK/hDvcgjks70NP1cZJjQKBgQC+vm9vCVCTkZZsmcWA93kCmTVSUmdVcHdU
+qxXblSaKOIrDOmI8LBqoOefttSnakauj8zlrW5jMcyxnV/rHH17j3CSjrK4xTsh5
+tpBx7Sc/++B0KO8pdvN//VyT0lrpWlu5nYhg4UKI3ycOoTW+FWdt2jgh/HeCvmzh
+3Dy0Fw9TmQKBgBLnqrWKuu+ssMOU06T+G+3kaENYt33mb9TJapUJ1M4OMIdTY/op
+0/3hTNvK4Gx9tAN4ILR/n/qLnmcutJ10hKiBsmzb6u6fLc5VGZRRPTHjk3z3UFTE
+eUB/bfYjjRUxk1ApOuAvjmu4XHWLCYzUOqKus0lQeZdwMQxln8Sp1G9RAoGBALTm
+kXLCZ8v82KgY0oq0qey/9yUjB+OtLU98jtdZRlrysw/i8EXXIlUHziHQnmgvnZR5
+WayrC2hjlupQM4PkCa+bGpisbexPpqxga+/QllgFfuNL6z7tFJT/amy7pQMJclLA
+yBXxrZN36Gfklr63OAekXXZGJeY2ybcPk/bMo/mJAoGAY2bI4XqYtwoOeONelYJM
+aiWdVv4ecsfTtKZ2KaPEfZ3M/xNcPb7x5KmlYHVMeF2OYJzxMQxkjrw68iO4fiSQ
+4zNFUM3TnIyyGWoLPl/j1+AMgbI+633QcUfFV+Ejr/yJdxhqyuAZpfuI4cwgwHFc
+CyBxv5jkFEeKIBwSGFx3D2I=
+-----END PRIVATE KEY-----
+`;
