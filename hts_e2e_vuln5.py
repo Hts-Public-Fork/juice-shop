@@ -1,3 +1,0 @@
-def l5(request, db):
-    u=request.args.get("u")
-    return db.cursor().execute("SELECT * FROM u WHERE i=" % u)
