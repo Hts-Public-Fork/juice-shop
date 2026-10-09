@@ -123,7 +123,7 @@
     "grunt": "^1.6.1",
     "grunt-contrib-compress": "^1.6.0",
     "grunt-replace-json": "^0.1.0",
-    "hashids": "^2.3.0",
+    "hashids": "2.3.0",
     "hbs": "^4.2.0",
     "helmet": "^4.6.0",
     "html-entities": "^1.4.0",
@@ -227,5 +227,8 @@
     "arm64",
     "arm"
   ],
-  "heroku-run-build-script": true
+  "heroku-run-build-script": true,
+  "overrides": {
+    "hashids": "$hashids"
+  }
 }
