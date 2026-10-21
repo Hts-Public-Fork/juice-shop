@@ -1,1 +1,1 @@
-HTSOne BUG-22 trial: Block mode must fail closed when a gated scan cannot complete. Do not merge.
+HTSOne BUG-22 trial, second commit. Do not merge.
