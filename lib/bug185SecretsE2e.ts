@@ -5,3 +5,5 @@ export const awsConfig = {
 }
 export const paymentApiKey = '63yzTM5C2To4GEIgInxznSvy7cTyovS4'
 export const dbPassword = 'Pr0d-63yzTM5C2To4GE!'
+// second commit: switch on
+export const webhookSigningSecret = 'ymKakZdYRruEGJM0dZO2cyyzeTT0T7SZu1PYkBBt'
