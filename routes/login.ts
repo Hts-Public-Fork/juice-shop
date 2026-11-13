@@ -1,3 +1,4 @@
+// BUG-185 SCA drift e2e: source-only change (temporary)
 /*
  * Copyright (c) 2014-2026 Bjoern Kimminich & the OWASP Juice Shop contributors.
  * SPDX-License-Identifier: MIT
